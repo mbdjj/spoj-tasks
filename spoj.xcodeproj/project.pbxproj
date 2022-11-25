@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		3457B4C1290BAFF3008D1DFD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457B4C0290BAFF3008D1DFD /* main.swift */; };
+		3457B4C8290BB21C008D1DFD /* LiczbyPierwsze.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457B4C7290BB21C008D1DFD /* LiczbyPierwsze.swift */; };
+		3457B4CA290BB254008D1DFD /* ProsteDodawanie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457B4C9290BB254008D1DFD /* ProsteDodawanie.swift */; };
+		3457B4CC290BB4E7008D1DFD /* CzyUmieszPotegowac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457B4CB290BB4E7008D1DFD /* CzyUmieszPotegowac.swift */; };
+		3457B4CE290BB8A7008D1DFD /* Suma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457B4CD290BB8A7008D1DFD /* Suma.swift */; };
+		3457B4D0290BBBB9008D1DFD /* ZadanieProbne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457B4CF290BBBB9008D1DFD /* ZadanieProbne.swift */; };
+		34771E7D2930A3090027D645 /* Imieniny.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34771E7C2930A3090027D645 /* Imieniny.swift */; };
+		34771E7F2930AA3E0027D645 /* Kalkulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34771E7E2930AA3E0027D645 /* Kalkulator.swift */; };
+		34771E812930B1300027D645 /* Flamaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34771E802930B1300027D645 /* Flamaster.swift */; };
+		34771E832930B4C70027D645 /* Tablice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34771E822930B4C70027D645 /* Tablice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,15 @@
 /* Begin PBXFileReference section */
 		3457B4BD290BAFF3008D1DFD /* spoj */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = spoj; sourceTree = BUILT_PRODUCTS_DIR; };
 		3457B4C0290BAFF3008D1DFD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3457B4C7290BB21C008D1DFD /* LiczbyPierwsze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiczbyPierwsze.swift; sourceTree = "<group>"; };
+		3457B4C9290BB254008D1DFD /* ProsteDodawanie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProsteDodawanie.swift; sourceTree = "<group>"; };
+		3457B4CB290BB4E7008D1DFD /* CzyUmieszPotegowac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CzyUmieszPotegowac.swift; sourceTree = "<group>"; };
+		3457B4CD290BB8A7008D1DFD /* Suma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suma.swift; sourceTree = "<group>"; };
+		3457B4CF290BBBB9008D1DFD /* ZadanieProbne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZadanieProbne.swift; sourceTree = "<group>"; };
+		34771E7C2930A3090027D645 /* Imieniny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imieniny.swift; sourceTree = "<group>"; };
+		34771E7E2930AA3E0027D645 /* Kalkulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kalkulator.swift; sourceTree = "<group>"; };
+		34771E802930B1300027D645 /* Flamaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flamaster.swift; sourceTree = "<group>"; };
+		34771E822930B4C70027D645 /* Tablice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tablice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +76,33 @@
 			isa = PBXGroup;
 			children = (
 				3457B4C0290BAFF3008D1DFD /* main.swift */,
+				34771E7B2930A2D90027D645 /* 2022.11.25 */,
+				34771E7A2930A2CC0027D645 /* dawno */,
 			);
 			path = spoj;
+			sourceTree = "<group>";
+		};
+		34771E7A2930A2CC0027D645 /* dawno */ = {
+			isa = PBXGroup;
+			children = (
+				3457B4C7290BB21C008D1DFD /* LiczbyPierwsze.swift */,
+				3457B4C9290BB254008D1DFD /* ProsteDodawanie.swift */,
+				3457B4CB290BB4E7008D1DFD /* CzyUmieszPotegowac.swift */,
+				3457B4CD290BB8A7008D1DFD /* Suma.swift */,
+				3457B4CF290BBBB9008D1DFD /* ZadanieProbne.swift */,
+			);
+			path = dawno;
+			sourceTree = "<group>";
+		};
+		34771E7B2930A2D90027D645 /* 2022.11.25 */ = {
+			isa = PBXGroup;
+			children = (
+				34771E7C2930A3090027D645 /* Imieniny.swift */,
+				34771E7E2930AA3E0027D645 /* Kalkulator.swift */,
+				34771E802930B1300027D645 /* Flamaster.swift */,
+				34771E822930B4C70027D645 /* Tablice.swift */,
+			);
+			path = 2022.11.25;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +163,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3457B4D0290BBBB9008D1DFD /* ZadanieProbne.swift in Sources */,
 				3457B4C1290BAFF3008D1DFD /* main.swift in Sources */,
+				3457B4CE290BB8A7008D1DFD /* Suma.swift in Sources */,
+				34771E7D2930A3090027D645 /* Imieniny.swift in Sources */,
+				34771E832930B4C70027D645 /* Tablice.swift in Sources */,
+				3457B4C8290BB21C008D1DFD /* LiczbyPierwsze.swift in Sources */,
+				34771E7F2930AA3E0027D645 /* Kalkulator.swift in Sources */,
+				34771E812930B1300027D645 /* Flamaster.swift in Sources */,
+				3457B4CA290BB254008D1DFD /* ProsteDodawanie.swift in Sources */,
+				3457B4CC290BB4E7008D1DFD /* CzyUmieszPotegowac.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
